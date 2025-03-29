@@ -11,6 +11,6 @@ It is static, so all you need to do to clone it, is fork this , name it (your gi
 # Credits
 [Benrogo](https://benrogo.net) runs the bare server for this website
 
-[Smartfoloo](https://github.com/smartfoloo) person who I took the games from
+[sigmasit](https://github.com/sigmasit) person who I took the games from
 
-[LatteWeb](https://github.com/MochiWorkshop/latteWeb) for the search js and proxy
+[LatteWeb](https://github.com///ermohammad-hack) for the search js and proxy
