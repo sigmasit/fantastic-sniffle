@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Nunito:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,500&display=swap');
+body {
+     margin: 0; 
+     background-color: #000000;
+     font-family: 'Lexend', sans-serif;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+}
+
+.dot {
+        box-shadow: 0 0 150px 100px #00bbff;
+	border-radius: 50%;
+	height: 275px;
+	width: 275px;
+	background-image: radial-gradient(
+		farthest-corner at 50% 50%,
+		#ffffff, #009dff
+	);
+	background-blend-mode: multiply;
+	filter: blur(50px) contrast(1.1);
+	position: fixed;
+	transform: translate(-50%, -50%);
+	left: 50vw;
+	top: 100vh;
+    z-index: -1000;
+}
+ a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+    ul {
+ z-index: 1000;
+  position: fixed;
+  backdrop-filter:blur(20px) brightness(100%);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Lexend', sans-serif;
+  color: white;
+  text-shadow: #000000 1px 0 10px;
+   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+ background-color:  #00bbff;
+}
+
+.active {
+  background-color:  #00bbff;
+  }
+ul {
+   display: block;
+  
+        }
+ul img {
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-down: 5px;
+  float:right;
+        }
+:root {   
+/* light-blue */    --primary-color: 111, 76, 255;      
+/* white */   --text-color: 256, 256, 256; } 
+.btn {   
+      font-size: 18px;   
+      padding: 12px 32px;   
+      margin: 1rem;   
+      cursor: pointer;   
+      border-radius: 4px;  
+      transition: all 0.3s ease;   
+	border-radius: 50px; }  
+.btn-glow:hover {   
+	box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px; } 
+/* https://sushi.com/ */ 
+.btn-gradient-border {   
+	color: rgba(var(--text-color));   
+	border: 2px double transparent;       
+	background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), 
+		radial-gradient(circle at left top, rgb(0, 183, 255), rgb(0, 255, 179));   
+	background-origin: border-box;   background-clip: padding-box, border-box;}

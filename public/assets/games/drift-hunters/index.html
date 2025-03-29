@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Drift Hunters</title>
+    <meta name="description" content="Drift Hunters is an online 3D car drifting game. Race on multiple challenging racetracks and customize your cars.">
+  <meta name="robots" content="noindex,nofollow" />
+    <style>
+      body {
+  margin: 0;
+  padding: 0;
+}
+    </style>
+  </head>
+  <body style="margin: 0 auto; overflow: hidden">
+  
+  
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
+  </div>
+    
+  </body>
+  <script src="./UnityLoader2019.js"></script>
+  <script>
+  
+    var gameInstance = UnityLoader.instantiate("gameContainer", "./dh.json");
+
+    function UnityProgress(gameInstance, progress) {
+      if (!gameInstance.Module) {
+        return;
+      }
+
+    }
+  </script>
+
+</html>
